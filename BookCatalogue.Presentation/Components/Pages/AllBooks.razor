@@ -1,0 +1,47 @@
+@page "/"
+@inject IBookRepository BookRepository
+
+<PageTitle>Book List</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        @if (books is null)
+        {
+            <div class="book-item">
+                Loading books.Book Please wait....
+            </div>
+        }
+        else if (books.Any())
+        {
+            @foreach (var book in books)
+            {
+                <div ckass="book-item">
+
+                    <div ckass="book-card">
+
+                        <div ckass="book-card-body">
+                            <h5>@book.Title</h5>
+                            <i> @book.Author | @book.PublicationDate?.ToString("dd MMMM, yyy")</i>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else {
+            <div class="book-item">
+                <i>No Books found.</i>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+
+    public IEnumerable<Book>? books;
+
+    protected override async Task OnInitializedAsync()
+    {
+        books = await BookRepository.GetBooksAsync();
+    }
+
+}

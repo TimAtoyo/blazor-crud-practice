@@ -28,5 +28,24 @@ namespace BookCatalogue.Infrastructure.Repositories
                 throw new ApplicationException("An Error has occured.", ex);
             }
         }
+
+        public async Task<IEnumerable<Book>> GetBooksAsync()
+        {
+            try
+            {
+                var books = await context.Books.ToListAsync();
+                return books;
+            }
+            catch (ArgumentNullException ex)
+            {
+                
+                throw new ApplicationException("No Book were found!", ex);
+            }
+            catch (Exception ex)
+            {
+
+                throw new ApplicationException("An Error has occured.", ex);
+            }
+        }
     }
 }

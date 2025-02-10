@@ -22,20 +22,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/AddNew.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BZGROZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/AllBooks.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BbGxCb29rcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Routes.razor]
@@ -49,7 +41,3 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-twv99jtgq7
-
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-9c91dmbjhy

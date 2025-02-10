@@ -2,7 +2,7 @@ namespace BookCatalogue.Domain.Enums
 {
     public enum Category
     {
-        Science,
+        Science = 1,
         Technology,
         Fitness,
         Travel
