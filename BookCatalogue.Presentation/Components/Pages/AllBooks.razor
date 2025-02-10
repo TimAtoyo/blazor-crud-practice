@@ -5,6 +5,8 @@
 
 <div class="row justify-content-center">
     <div class="col-md-6">
+
+        <a href="/add-new" class="btn btn-primary mb-3">Add New Book</a>
         @if (books is null)
         {
             <div class="book-item">
@@ -15,19 +17,13 @@
         {
             @foreach (var book in books)
             {
-                <div ckass="book-item">
-
-                    <div ckass="book-card">
-
-                        <div ckass="book-card-body">
-                            <h5>@book.Title</h5>
-                            <i> @book.Author | @book.PublicationDate?.ToString("dd MMMM, yyy")</i>
-                        </div>
-                    </div>
+                <div class="book-item">
+                    <BookCard book="book"></BookCard>
                 </div>
             }
         }
-        else {
+        else
+        {
             <div class="book-item">
                 <i>No Books found.</i>
             </div>

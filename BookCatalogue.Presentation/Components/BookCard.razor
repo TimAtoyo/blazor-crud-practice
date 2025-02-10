@@ -1,0 +1,11 @@
+<div class="book-card">
+    <div ckass="book-card-body">
+        <h5>@book.Title</h5>
+        <i> @book.Author | @book.PublicationDate?.ToString("dd MMMM, yyy")</i>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public required Book book {get; set;}
+}

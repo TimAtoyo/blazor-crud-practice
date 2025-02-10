@@ -68,3 +68,4 @@
 /Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/bin/Debug/net8.0/BookCatalogue.Domain.pdb
 /Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/obj/Debug/net8.0/BookCatalogue.Presentation.csproj.AssemblyReference.cache
 /Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/obj/Debug/net8.0/BookCata.86421F75.Up2Date
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/obj/Debug/net8.0/scopedcss/Components/Pages/AllBooks.razor.rz.scp.css
