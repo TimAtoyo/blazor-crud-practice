@@ -4,14 +4,76 @@
     "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj": {}
   },
   "projects": {
-    "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj": {
+    "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj",
-        "projectName": "BookCatalogue.Presentation",
-        "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj",
+        "projectUniqueName": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj",
+        "projectName": "BookCatalogue.Application",
+        "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj",
         "packagesPath": "/Users/timothyatoyo/.nuget/packages/",
-        "outputPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/obj/",
+        "outputPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timothyatoyo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/BookCatalogue.Domain.csproj": {
+                "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/BookCatalogue.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/BookCatalogue.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/BookCatalogue.Domain.csproj",
+        "projectName": "BookCatalogue.Domain",
+        "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/BookCatalogue.Domain.csproj",
+        "packagesPath": "/Users/timothyatoyo/.nuget/packages/",
+        "outputPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/timothyatoyo/.nuget/NuGet/NuGet.Config"
@@ -42,6 +104,165 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Infrastructure/BookCatalogue.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Infrastructure/BookCatalogue.Infrastructure.csproj",
+        "projectName": "BookCatalogue.Infrastructure",
+        "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Infrastructure/BookCatalogue.Infrastructure.csproj",
+        "packagesPath": "/Users/timothyatoyo/.nuget/packages/",
+        "outputPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timothyatoyo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj": {
+                "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj",
+        "projectName": "BookCatalogue.Presentation",
+        "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/BookCatalogue.Presentation.csproj",
+        "packagesPath": "/Users/timothyatoyo/.nuget/packages/",
+        "outputPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/timothyatoyo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj": {
+                "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/BookCatalogue.Application.csproj"
+              },
+              "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Infrastructure/BookCatalogue.Infrastructure.csproj": {
+                "projectPath": "/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Infrastructure/BookCatalogue.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,12 @@
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/bin/Debug/net8.0/BookCatalogue.Domain.deps.json
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/bin/Debug/net8.0/BookCatalogue.Domain.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/bin/Debug/net8.0/BookCatalogue.Domain.pdb
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.AssemblyInfoInputs.cache
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.AssemblyInfo.cs
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.csproj.CoreCompileInputs.cache
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.sourcelink.json
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/refint/BookCatalogue.Domain.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/BookCatalogue.Domain.pdb
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Domain/obj/Debug/net8.0/ref/BookCatalogue.Domain.dll

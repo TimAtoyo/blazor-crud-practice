@@ -1,0 +1,16 @@
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/bin/Debug/net8.0/BookCatalogue.Application.deps.json
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/bin/Debug/net8.0/BookCatalogue.Application.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/bin/Debug/net8.0/BookCatalogue.Application.pdb
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/bin/Debug/net8.0/BookCatalogue.Domain.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/bin/Debug/net8.0/BookCatalogue.Domain.pdb
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.csproj.AssemblyReference.cache
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.AssemblyInfoInputs.cache
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.AssemblyInfo.cs
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.csproj.CoreCompileInputs.cache
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.sourcelink.json
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCata.2A93B3DA.Up2Date
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/refint/BookCatalogue.Application.dll
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/BookCatalogue.Application.pdb
+/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Application/obj/Debug/net8.0/ref/BookCatalogue.Application.dll

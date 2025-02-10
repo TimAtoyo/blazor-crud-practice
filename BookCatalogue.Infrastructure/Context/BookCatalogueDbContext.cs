@@ -9,7 +9,7 @@ namespace BookCatalogue.Infrastructure.Context
 {
     public class BookCatalogueDbContext : DbContext
     {
-        public BookCatalogueDbContext(DbContextOptions<BookCatalogueDbContext> options) : base()
+        public BookCatalogueDbContext(DbContextOptions<BookCatalogueDbContext> options) : base(options)
         {
             
         }
