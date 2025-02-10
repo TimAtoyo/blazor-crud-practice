@@ -29,6 +29,12 @@ namespace BookCatalogue.Infrastructure.Repositories
             }
         }
 
+        public async Task<Book?> GetBookByIdAsync(int id)
+        {
+            var book = await context.Books.FirstOrDefaultAsync(e => e.Id == id);
+            return book;
+        }
+
         public async Task<IEnumerable<Book>> GetBooksAsync()
         {
             try
@@ -47,5 +53,24 @@ namespace BookCatalogue.Infrastructure.Repositories
                 throw new ApplicationException("An Error has occured.", ex);
             }
         }
+
+        public async Task<bool> UpdateBookAsync(Book book)
+        {
+            var existingBook = await context.Books.FindAsync(book.Id);
+            if (existingBook == null)
+            {
+                return false; // Book not found
+            }
+
+            // Update only the necessary fields
+            existingBook.Title = book.Title;
+            existingBook.Author = book.Author;
+            existingBook.PublicationDate = book.PublicationDate;
+            existingBook.PublicationDate = book.PublicationDate;
+
+            await context.SaveChangesAsync();
+            return true; // Update successful
+        }
+
     }
 }

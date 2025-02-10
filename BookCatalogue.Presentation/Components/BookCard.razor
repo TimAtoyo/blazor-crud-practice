@@ -3,6 +3,9 @@
         <h5>@book.Title</h5>
         <i> @book.Author | @book.PublicationDate?.ToString("dd MMMM, yyy")</i>
     </div>
+    <div class="actions">
+        <a href="@($"/edit/{book.Id}")" class="btn btn-info shadow-none">Edit</a>
+    </div>
 </div>
 
 @code {

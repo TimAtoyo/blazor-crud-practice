@@ -1,6 +1,6 @@
 @page "/"
 @inject IBookRepository BookRepository
-
+@attribute [StreamRendering]
 <PageTitle>Book List</PageTitle>
 
 <div class="row justify-content-center">
@@ -10,7 +10,7 @@
         @if (books is null)
         {
             <div class="book-item">
-                Loading books.Book Please wait....
+                Loading Books Please wait....
             </div>
         }
         else if (books.Any())
@@ -37,6 +37,7 @@
 
     protected override async Task OnInitializedAsync()
     {
+        await Task.Delay(3000);
         books = await BookRepository.GetBooksAsync();
     }
 

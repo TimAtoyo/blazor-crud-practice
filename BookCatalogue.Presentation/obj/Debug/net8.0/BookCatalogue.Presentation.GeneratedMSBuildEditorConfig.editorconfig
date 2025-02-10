@@ -22,12 +22,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/BookCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Cb29rQ2FyZC5yYXpvcg==
+[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/EditForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FZGl0Rm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/AddNew.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BZGROZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/EditBook.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZGl0Qm9vay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Routes.razor]
@@ -37,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/BookCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Cb29rQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ljvvg6geii
 
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==

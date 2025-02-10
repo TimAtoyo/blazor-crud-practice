@@ -1,3 +1,9 @@
+/* _content/BookCatalogue.Presentation/Components/BookCard.razor.rz.scp.css */
+.book-card[b-ljvvg6geii] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 /* _content/BookCatalogue.Presentation/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-twv99jtgq7] {
     position: relative;
