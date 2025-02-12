@@ -22,8 +22,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/EditForm.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FZGl0Rm9ybS5yYXpvcg==
+[/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/BookForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Cb29rRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/timothyatoyo/Desktop/Projects/blazor-crud-practice/BookCatalogue.Presentation/Components/Pages/AddNew.razor]
