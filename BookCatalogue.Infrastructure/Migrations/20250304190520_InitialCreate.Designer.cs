@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookCatalogue.Infrastructure.Migrations
 {
     [DbContext(typeof(BookCatalogueDbContext))]
-    [Migration("20250210203150_InitialCreate")]
+    [Migration("20250304190520_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

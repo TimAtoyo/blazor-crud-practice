@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BookCalalogue.Domain;
+using BookCatalogue.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookCatalogue.Infrastructure.Context
@@ -11,9 +12,7 @@ namespace BookCatalogue.Infrastructure.Context
     {
         public BookCatalogueDbContext(DbContextOptions<BookCatalogueDbContext> options) : base(options)
         {
-            
         }
-
 
         public DbSet<Book> Books { get; set; }
     }

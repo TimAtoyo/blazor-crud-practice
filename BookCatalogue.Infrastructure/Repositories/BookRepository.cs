@@ -29,6 +29,14 @@ namespace BookCatalogue.Infrastructure.Repositories
             }
         }
 
+        public async Task DeleteBookById(int id)
+        {
+            Book? book = await context.Books.FindAsync(id);
+            if(book is not null){
+                context.Books.Remove(book);
+            }
+        }
+
         public async Task<Book?> GetBookByIdAsync(int id)
         {
             var book = await context.Books.FirstOrDefaultAsync(e => e.Id == id);
@@ -56,7 +64,7 @@ namespace BookCatalogue.Infrastructure.Repositories
 
         public async Task<bool> UpdateBookAsync(Book book)
         {
-            var existingBook = await context.Books.FindAsync(book.Id);
+            var existingBook = await GetBookByIdAsync(book.Id);
             if (existingBook == null)
             {
                 return false; // Book not found
@@ -66,9 +74,10 @@ namespace BookCatalogue.Infrastructure.Repositories
             existingBook.Title = book.Title;
             existingBook.Author = book.Author;
             existingBook.PublicationDate = book.PublicationDate;
-            existingBook.PublicationDate = book.PublicationDate;
+            existingBook.Category = book.Category;
 
             await context.SaveChangesAsync();
+            Console.WriteLine("Updated is good!");
             return true; // Update successful
         }
 

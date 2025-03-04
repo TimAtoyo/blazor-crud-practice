@@ -1,0 +1,19 @@
+@page "/delete/{id:int}"
+@inject IBookRepository BookRepository
+@inject NavigationManager NavigationManager
+<div class="col-md-6">
+
+<BookForm BookId="@Id" IsEditMode="true" OnValidBookSubmit="deleteBook" ></BookForm>
+</div>
+
+@code {
+    [Parameter]
+    public int Id {get; set;}
+    [SupplyParameterFromForm]
+    private Book? book {get; set;}  
+
+    private async Task deleteBook(Book book){
+            await BookRepository.DeleteBookById(book.Id);
+            NavigationManager.NavigateTo("/");
+    }
+}   

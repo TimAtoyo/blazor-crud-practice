@@ -1,4 +1,5 @@
 @inject IBookRepository Repository
+
 @if (book is not null)
 {
     <EditForm Enhance="true" method="post" FormName="AddOnEditBookForm" OnValidSubmit="AddOrEditABook" Model="book"
@@ -7,11 +8,12 @@
         <h4><strong><i class="mb-3">@Title</i></strong></h4>
                 @* <a href="/" class="btn btn-secondary ms-3">Back To All Books</a> *@
     </div>
-    @if (IsEditMode)
-    {
 
-        <input type="hidden" name="@book.Id" value="@book.Id" />
-    }
+            @*  *@
+        @if (IsEditMode) {
+                <InputNumber id="id" @bind-Value="book.Id" type="hidden" class="form-control shadow-none" />
+        }
+
     <div class="mb-3">
         <label for="title" class="form-label">Title</label>
         <InputText id="title" @bind-Value="book.Title" class="form-control shadow-none"></InputText>
@@ -53,8 +55,10 @@
 
     [Parameter]
     public int BookId { get; set; }
+
     [SupplyParameterFromForm]
     public Book? book { get; set; }
+
     [Parameter]
     public EventCallback<Book> OnValidBookSubmit { get; set; }
 
